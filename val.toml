@@ -1,0 +1,19 @@
+query = [
+    # claiming rewards from validator's wallet
+    "withdraw_rewards.validator = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    # incoming delegations from validator
+    "delegate.validator = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    # redelegations from and to validator
+    "redelegate.source_validator = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    "redelegate.destination_validator = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    # unbonding from validator
+    "unbond.validator= 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    #tokens sent from validator's wallet
+    "transfer.sender = 'plq1qyyzwm55snqrwuchmem7yzxmxkg3lsevc9qclw'",
+    #tokens sent to validator's wallet
+    "transfer.recipient = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    #IBC token transferred from validator's wallet
+    "ibc_transfer.sender = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+    #IBC token received at validator's wallet
+    "fungible_token_packet.receiver = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
+]
