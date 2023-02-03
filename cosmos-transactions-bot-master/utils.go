@@ -5,11 +5,11 @@ import (
 )
 
 func makeMintscanLink(suffix string) string {
-	return fmt.Sprintf("https://explorer.nodexcapital.com/%s/%s", MintscanProject, suffix)
+	return fmt.Sprintf("https://explorer.nodexcapital.com/planq/%s", suffix)
 }
 
 func makeMintscanTxLink(hash string) string {
-	return makeMintscanLink(fmt.Sprintf("txs/%s", hash))
+	return makeMintscanLink(fmt.Sprintf("tx/%s", hash))
 }
 
 func makeMintscanBlockLink(block int64) string {
