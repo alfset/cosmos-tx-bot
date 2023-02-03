@@ -5,7 +5,7 @@ import (
 )
 
 func makeMintscanLink(suffix string) string {
-	return fmt.Sprintf("https://mintscan.io/%s/%s", MintscanProject, suffix)
+	return fmt.Sprintf("https://explorer.nodexcapital.com/%s/%s", MintscanProject, suffix)
 }
 
 func makeMintscanTxLink(hash string) string {
