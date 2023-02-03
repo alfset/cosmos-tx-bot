@@ -98,6 +98,6 @@ To set it up, you'll need a few things:
 2. Then you'll need to configure an app to handle commands.
 
 
-##example command to runing your own server
-./$HOME/cosmos-tx-bot/cosmos-transactions-bot-master/main --base-denom aplanq --denom aplanq --tendermint-rpc tcp://localhost:33657 --node 127.0.0.1:33090 --config ~/val.toml --telegram-token <telegram Token from botfather> --telegram-chat <Chat-Id>
+##example command to runing on your own server
+./~/cosmos-tx-bot/cosmos-transactions-bot-master/main --base-denom aplanq --denom aplanq --tendermint-rpc tcp://localhost:33657 --node 127.0.0.1:33090 --config ~/val.toml --telegram-token <telegram Token from botfather> --telegram-chat <Chat-Id>
 
