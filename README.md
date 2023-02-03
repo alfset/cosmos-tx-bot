@@ -1,6 +1,6 @@
 # cosmos-tx-bot
 
-Download (https://github.com/solarlabsteam/cosmos-transactions-bot/releases/). After that, you should unzip it and you are ready to go:
+Download . After that, you should unzip it and you are ready to go:
 
 
 wget https://github.com/alfset/cosmos-tx-bot/blob/main/cosmos-transactions-bot_1.0.0_Linux_i386.tar.gz or https://github.com/alfset/cosmos-tx-bot/blob/main/cosmos-transactions-bot_1.0.0_Linux_x86_64.tar.gz
