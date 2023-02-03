@@ -38,6 +38,7 @@ Additionally, you can pass a `--config` flag with a path to your config file (we
 You can specify a `--query` that serves as a filter. If the transaction does not match this filter, this program won't send a notification on that. The default filter is `tx.height > 1`, which matches all transactions. You would probably want to use your own filter.
 
 For example, we're using this tool to monitor new delegations for our validator and this is what we have in our `.toml` configuration file:
+```
 query = [
     # claiming rewards from validator's wallet
     "withdraw_rewards.validator = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
@@ -58,7 +59,7 @@ query = [
     "fungible_token_packet.receiver = 'plqvaloper1qyyzwm55snqrwuchmem7yzxmxkg3lsevxmdzel'",
 ]
 
-
+```
 Unfortunately there is no OR operator support. See [this](https://stackoverflow.com/questions/65709248/how-to-use-an-or-condition-with-the-tendermint-websocket-subscribe-method) and [this](https://github.com/tendermint/tendermint/issues/5206) for context. You can add a few filters in the config though.
 
 See [the documentation](https://docs.tendermint.com/master/rpc/#/Websocket/subscribe) for more information.
