@@ -21,7 +21,7 @@ func makeMintscanAccountLink(account string) string {
 }
 
 func makeMintscanValidatorLink(validator string) string {
-	return makeMintscanLink(fmt.Sprintf("validators/%s", validator))
+	return makeMintscanLink(fmt.Sprintf("staking/%s", validator))
 }
 
 func makeMintscanProposalsLink() string {
