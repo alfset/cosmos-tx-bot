@@ -11,7 +11,7 @@ intall tmux / screen
 #build from source
 ```sh
 cd cosmos-tx-bot/cosmos-transactions-bot-master
-go mod init txbot
+go mod tidy
 go build
 ```
 
